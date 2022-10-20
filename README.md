@@ -35,4 +35,3 @@ From your project settings:
 6. Deploy this sample project (using a remote instance or using ngrok)
 
 You should then be redirected to your environment.
-
