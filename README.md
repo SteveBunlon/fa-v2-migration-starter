@@ -2,10 +2,12 @@
 
 This sample project allows you to quickly onboard on Forest Admin using agent-nodejs as a microservice, and to migrate step by step from forest-express-sequelize to agent-nodejs
 
+<b>DISCLAIMER: DO NOT use the environment you are about to work on for anything related to other environments (layout, layout copies...). This environment should be used as a sandbox only, and should never be considered by anyone in your team besides you, unless you are done with the changes and deploy it to production</b>
+
 ## Setup your environment
 
 You can start migrating to agent-nodejs using either a dedicated remote environment, or your own development environment.
-Be careful of the following:
+Be careful of the following: 
 - Using your own development environment might cause layout loose. Make sure you are working on a fresh branch without any layout changes
 - Working on a remote environment might be tedious. Anytime you do a change, you will need to deploy to your environment to observe the change. you might to give a shot to [ngrok](https://ngrok.com/) which allows you to work locally with a remote accessible url over https
 
