@@ -9,7 +9,6 @@ import { createSqlDataSource } from '@forestadmin/datasource-sql';
         authSecret: process.env.FOREST_AUTH_SECRET,
         envSecret: process.env.FOREST_ENV_SECRET,
         isProduction: process.env.NODE_ENV === 'production',
-        forestServerUrl: process.env.FOREST_URL,
     })
         .addDataSource(createSqlDataSource(process.env.DATABASE_URL))
         .mountOnStandaloneServer(Number(process.env.PORT) || 3310)
